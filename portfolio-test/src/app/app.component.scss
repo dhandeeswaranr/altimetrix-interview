@@ -3,9 +3,17 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 50px;
+    border-bottom: 1px solid blue;
 
     div{
         cursor: pointer;
+        background-color: #053c4f;
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        &:hover{
+            background-color:lightcoral;
+        }
     }
 }
 
