@@ -1,0 +1,16 @@
+<p>dashboard-container works!</p>
+
+<div>
+    <div>
+        @for(list of dashboardData; track list.id) {
+               <div class="dashboard-data"> 
+                    <div>Investment Name : {{list.invsetmentName}}</div>
+                    <div>Investment Type : {{list.investmentType}}</div>
+                    <div>Investment Price : {{list.invsetmentPrice}}</div>
+                    <div>Investment quantity : {{list.quantity}}</div>
+                    <div>Investment quantity : {{list.totalInvestment}}</div>
+                 
+               </div>
+        }
+    </div>
+</div>

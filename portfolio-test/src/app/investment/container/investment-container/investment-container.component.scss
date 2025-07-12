@@ -1,0 +1,14 @@
+
+:host {
+    .error {
+        margin-bottom: 15px;
+        color: red;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+  mat-form-field {
+    width: 100%;
+  }
+}
