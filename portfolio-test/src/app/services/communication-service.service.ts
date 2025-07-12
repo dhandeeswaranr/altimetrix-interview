@@ -12,7 +12,7 @@ export class CommunicationServiceService {
             investmentType: 'Gold', 
             invsetmentName: 'tcs', 
             invsetmentPrice: '100', 
-            quantity: '1',
+            quantity: '4',
             totalInvestment:'100'
             },
             {

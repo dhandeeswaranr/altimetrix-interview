@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
+import { ConverterPipe } from './pipes/converter.pipe';
 
 const widgets = [
   FormsModule,
@@ -17,13 +18,16 @@ const widgets = [
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ConverterPipe
+  ],
   imports: [
     CommonModule,
     widgets
   ],
   exports:[
-    widgets
+    widgets,
+    ConverterPipe
   ]
 })
 export class SharedModule { }
