@@ -18,10 +18,10 @@ export class CommunicationServiceService {
             {
             id: 2, 
             investmentType: 'Mutual Fund', 
-            invsetmentName: 'tcs', 
+            invsetmentName: 'Infosys', 
             invsetmentPrice: '100', 
             quantity: '1',
-            totalInvestment:'100'
+            totalInvestment:'400'
             }
 
           ]
